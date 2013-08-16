@@ -138,7 +138,7 @@ $ cctrlapp APP_NAME/default addon.add mysqls.PLAN
 Deploy your app (increase container size to meet high memory consumption by spring framework):
 
 ~~~bash
-$ cctrlapp APP_NAME/default deploy --max=6
+$ cctrlapp APP_NAME/default deploy --size=6
 ~~~
 
 **Congratulations, you should now be able to reach your application at http://APP_NAME.cloudcontrolled.com.**
